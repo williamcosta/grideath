@@ -16,6 +16,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin('./build/css/grideath.css')
+    new MiniCssExtractPlugin(),
   ]
 };
